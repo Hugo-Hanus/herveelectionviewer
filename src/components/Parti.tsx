@@ -117,7 +117,7 @@ function Parti() {
       sorter: (a, b) => parseInt(a.Year) - parseInt(b.Year),
     },
     {
-      title: "Vote Change",
+      title: "Place % N° Liste",
       key: "voteChange",
       render: (text, record) => {
         const voteChange = calculateVoteChange(record);
@@ -140,7 +140,7 @@ function Parti() {
             precision={0}
             valueStyle={valueStyle}
             prefix={prefix}
-            suffix="place % N° Liste"
+            suffix="place(s)"
           />
         );
       },
@@ -162,7 +162,7 @@ function Parti() {
 
   return (
     <>
-      <Card bordered={false} title="Parti">
+      <Card bordered={false} title={`Parti ${listName}`}>
         {data.length > 0 ? (
           <Table<Candidate>
             columns={columns}
