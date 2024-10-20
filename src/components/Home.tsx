@@ -1,5 +1,3 @@
-import React from "react";
-import { Layout } from "antd";
 import { Content } from "antd/es/layout/layout";
 import Title from "antd/es/typography/Title";
 import CustomFooter from "./CustomFooter";

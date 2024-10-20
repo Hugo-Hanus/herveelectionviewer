@@ -16,8 +16,35 @@ function Navigation() {
       icon: <HomeFilled />,
     },
     {
-      label: "Liste électorale",
-      key: "Liste électorale",
+      label: "2024",
+      key: "2024",
+      icon: <BookFilled />,
+      children: [
+        {
+          type: "group",
+          label: "Global",
+          children: [
+            { label: "2024", key: "2024" },
+            {
+              label: "2024 Tout les candidats",
+              key: "2024 Tout les candidats",
+            },
+          ],
+        },
+        {
+          type: "group",
+          label: "Parti",
+          children: [
+            { label: "EPH", key: "EPH" },
+            { label: "HDM", key: "HDM" },
+            { label: "PS", key: "PS" },
+          ],
+        },
+      ],
+    },
+    {
+      label: "2018",
+      key: "2018",
       icon: <BookFilled />,
       children: [
         {
@@ -25,7 +52,10 @@ function Navigation() {
           label: "Global",
           children: [
             { label: "2018", key: "2018" },
-            { label: "2024", key: "2024" },
+            {
+              label: "2018 Tout les candidats",
+              key: "2018 Tout les candidats",
+            },
           ],
         },
         {
@@ -48,17 +78,15 @@ function Navigation() {
   const [current, setCurrent] = useState("link");
 
   const onClick: MenuProps["onClick"] = (e) => {
-    const link = `/${e.key}`;
-    setCurrent(e.key);
-    if (e.key.length === 0) {
-      navigate(link);
+    console.log(e.keyPath);
+    if (e.keyPath[0] === e.keyPath[1]) {
+      navigate(`/Annee/${e.key}`);
+    } else if (e.keyPath[0].substring(0, 4) === e.keyPath[1]) {
+    } else if (!isNaN(parseInt(e.keyPath[1], 10))) {
+      navigate(`/List/${e.keyPath[1]}/${e.keyPath[0]}`);
     } else {
-      if (!isNaN(parseInt(e.key, 10))) {
-        navigate("/Annee" + link);
-      } else {
-        navigate("/List" + link);
-      }
     }
+    setCurrent(e.keyPath[1]);
   };
 
   return (

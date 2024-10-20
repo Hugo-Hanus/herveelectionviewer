@@ -12,16 +12,16 @@ function CustomFooter() {
       }}
     >
       <p>
-        Ce site a été crée par Hugo.H bénévolement.
-        <br />
         <b>
           Ce site est utilisé uniquement à des fins informatives et aucun
           bénéfice n'est réalisé sur cette application.
         </b>
         <br />
+        Ce site a été crée par Hugo.H bénévolement.
+        <br />
         Aucun parti politique n'est mis en avant, tout est trié par ordre
         alphabétique.
-        <br /> Les données sont publiques et proviennent des sites
+        <br /> Les données sont publiques et proviennent des sites{" "}
         <a
           href="https://elections2024.wallonie.be/fr/resultats-chiffres?el=CG&id=CGM63035"
           target="_blank"
@@ -29,7 +29,7 @@ function CustomFooter() {
         >
           élections 2024
         </a>{" "}
-        et
+        et{" "}
         <a
           href="https://elections2018.wallonie.be/fr/resultats-chiffres?el=CG&id=CGM63035"
           target="_blank"

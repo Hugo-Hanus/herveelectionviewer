@@ -14,7 +14,7 @@ function App() {
       <Routes>
         <Route path="/" Component={Home} />
         <Route path="/Annee/:annee" Component={Year} />
-        <Route path="/List/:listName" Component={Parti} />
+        <Route path="/List/:yearSelected/:listName" Component={Parti} />
       </Routes>
     </HashRouter>
   );
