@@ -151,7 +151,7 @@ function Parti() {
       render: (text) => <span className={styles.fontText}>{text}</span>,
     },
     {
-      title: "Place % N° Liste",
+      title: "Évolution Place % N° Liste",
       key: "voteChange",
       sorter: (a, b) => calculateVoteChange(a) - calculateVoteChange(b),
       render: (text, record) => {
@@ -256,7 +256,7 @@ function Parti() {
       },
     },
     {
-      title: "Évolution % Élection précédente",
+      title: "Évolution Votes % Élection Précédente",
       key: "votePercentageChange",
       sorter: (a, b) =>
         calculateVotePercentageChange(a) - calculateVotePercentageChange(b),
@@ -302,7 +302,7 @@ function Parti() {
     },
 
     {
-      title: "Évolution % Pourcentage précédent",
+      title: "Évolution Pourcentage % Élection Précédent",
       key: "votePercentagePercentageChange",
       sorter: (a, b) =>
         calculateVotePercentagePercentageChange(a) -
@@ -362,7 +362,7 @@ function Parti() {
         bordered={false}
         title={
           <Title level={1} style={{ textAlign: "center", marginTop: "20px" }}>
-            {listName}
+            {listName + " - " + yearSelected}
           </Title>
         }
       >

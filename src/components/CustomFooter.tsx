@@ -17,7 +17,11 @@ function CustomFooter() {
           bénéfice n'est réalisé sur cette application.
         </b>
         <br />
-        Ce site a été crée par Hugo.H bénévolement.
+        Ce site a été crée par{" "}
+        <a href="mailto:devhugoh@gmail.com?subject=À propos de Élection Viewer">
+          devhugoh@gmail.com{" "}
+        </a>
+        bénévolement.
         <br />
         Aucun parti politique n'est mis en avant, tout est trié par ordre
         alphabétique.
@@ -37,7 +41,7 @@ function CustomFooter() {
         >
           élections 2018
         </a>{" "}
-        qui sont la propriété de la <b>Wallonie</b>.
+        qui sont la propriété de la <b>Wallonie et de la commune de Herve</b>.
       </p>
     </Footer>
   );

@@ -78,7 +78,9 @@ function Navigation() {
   const [current, setCurrent] = useState("link");
 
   const onClick: MenuProps["onClick"] = (e) => {
-    console.log(e.keyPath);
+    if (e.key === "") {
+      navigate("/");
+    }
     if (e.keyPath[0] === e.keyPath[1]) {
       navigate(`/Annee/${e.key}`);
     } else if (e.keyPath[0].substring(0, 4) === e.keyPath[1]) {
