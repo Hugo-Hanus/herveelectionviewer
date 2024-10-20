@@ -4,6 +4,7 @@ import { MinusOutlined, PlusOutlined } from "@ant-design/icons";
 import type { TableColumnsType, TableProps } from "antd";
 import { useParams } from "react-router-dom";
 import { createStyles } from "antd-style";
+import CustomFooter from "./CustomFooter";
 
 interface Candidate {
   key: React.Key;
@@ -160,20 +161,23 @@ function Parti() {
   };
 
   return (
-    <Card bordered={false} title="Parti">
-      {data.length > 0 ? (
-        <Table<Candidate>
-          columns={columns}
-          dataSource={data}
-          onChange={onChange}
-          pagination={false}
-          showSorterTooltip={{ target: "sorter-icon" }}
-          rowClassName={rowClassName}
-        />
-      ) : (
-        "Loading..."
-      )}
-    </Card>
+    <>
+      <Card bordered={false} title="Parti">
+        {data.length > 0 ? (
+          <Table<Candidate>
+            columns={columns}
+            dataSource={data}
+            onChange={onChange}
+            pagination={false}
+            showSorterTooltip={{ target: "sorter-icon" }}
+            rowClassName={rowClassName}
+          />
+        ) : (
+          "Loading..."
+        )}
+      </Card>
+      <CustomFooter />
+    </>
   );
 }
 
