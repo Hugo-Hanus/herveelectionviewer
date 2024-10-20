@@ -1,0 +1,110 @@
+{
+  "teteList": 685,
+  "faveurCandidats": 765,
+  "candidats": [
+    {
+      "ID": "1",
+      "Name": "BONAVENTURE CHANELLE",
+      "Votes": "376",
+      "Percentage": "19,12%",
+      "Valid Votes": "376",
+      "Rank": "1"
+    },
+    {
+      "ID": "2",
+      "Name": "HARDY NATHAN",
+      "Votes": "151",
+      "Percentage": "7,68%",
+      "Valid Votes": "151",
+      "Rank": "2"
+    },
+    {
+      "ID": "3",
+      "Name": "ROUMANS SANDY",
+      "Votes": "180",
+      "Percentage": "9,15%",
+      "Valid Votes": "180",
+      "Rank": "1"
+    },
+    {
+      "ID": "4",
+      "Name": "RAVAGNAN AURÉLIEN",
+      "Votes": "91",
+      "Percentage": "4,63%",
+      "Valid Votes": "91",
+      "Rank": "10"
+    },
+    {
+      "ID": "5",
+      "Name": "LEFEVRE-PETIT SYLVIE",
+      "Votes": "146",
+      "Percentage": "7,42%",
+      "Valid Votes": "146",
+      "Rank": "4"
+    },
+    {
+      "ID": "6",
+      "Name": "DESMIT PATRICE",
+      "Votes": "90",
+      "Percentage": "4,58%",
+      "Valid Votes": "90",
+      "Rank": "11"
+    },
+    {
+      "ID": "7",
+      "Name": "CORDONNIER ANNIE",
+      "Votes": "95",
+      "Percentage": "4,83%",
+      "Valid Votes": "95",
+      "Rank": "9"
+    },
+    {
+      "ID": "8",
+      "Name": "MOKHTARI SAMI",
+      "Votes": "149",
+      "Percentage": "7,57%",
+      "Valid Votes": "149",
+      "Rank": "3"
+    },
+    {
+      "ID": "9",
+      "Name": "CALIFICE JULIE",
+      "Votes": "116",
+      "Percentage": "5,90%",
+      "Valid Votes": "116",
+      "Rank": "6"
+    },
+    {
+      "ID": "10",
+      "Name": "COLLING PHILIPPE",
+      "Votes": "107",
+      "Percentage": "5,44%",
+      "Valid Votes": "107",
+      "Rank": "8"
+    },
+    {
+      "ID": "11",
+      "Name": "WISLET PATRICIA",
+      "Votes": "110",
+      "Percentage": "5,59%",
+      "Valid Votes": "110",
+      "Rank": "7"
+    },
+    {
+      "ID": "12",
+      "Name": "MATHONET SERGE",
+      "Votes": "129",
+      "Percentage": "6,56%",
+      "Valid Votes": "129",
+      "Rank": "5"
+    },
+    {
+      "ID": "13",
+      "Name": "ROUMANS-VANGEEBERGEN NICOLE",
+      "Votes": "227",
+      "Percentage": "11,54%",
+      "Valid Votes": "227",
+      "Rank": "2"
+    }
+  ]
+}

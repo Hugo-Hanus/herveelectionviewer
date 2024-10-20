@@ -1,0 +1,206 @@
+{
+  "teteList": 561,
+  "faveurCandidats": 1293,
+  "candidats": [
+    {
+      "ID": "1",
+      "Name": "DUMONT Jean-Claude",
+      "Votes": "346",
+      "Percentage": "8,64%",
+      "Valid Votes": "346",
+      "Rank": "2"
+    },
+    {
+      "ID": "2",
+      "Name": "LEFEVRE-PETIT Sylvie",
+      "Votes": "156",
+      "Percentage": "3,90%",
+      "Valid Votes": "156",
+      "Rank": "4"
+    },
+    {
+      "ID": "3",
+      "Name": "SANGIOVANNI Claudio",
+      "Votes": "205",
+      "Percentage": "5,12%",
+      "Valid Votes": "205",
+      "Rank": "1"
+    },
+    {
+      "ID": "4",
+      "Name": "VAN der VORST Nathalie",
+      "Votes": "125",
+      "Percentage": "3,12%",
+      "Valid Votes": "125",
+      "Rank": "10"
+    },
+    {
+      "ID": "5",
+      "Name": "TOMIZZI Nicolino",
+      "Votes": "91",
+      "Percentage": "2,27%",
+      "Valid Votes": "91",
+      "Rank": "18"
+    },
+    {
+      "ID": "6",
+      "Name": "OOGHE-HERMAN Katia",
+      "Votes": "126",
+      "Percentage": "3,15%",
+      "Valid Votes": "126",
+      "Rank": "9"
+    },
+    {
+      "ID": "7",
+      "Name": "GILDEMEESTER Stéphane",
+      "Votes": "104",
+      "Percentage": "2,60%",
+      "Valid Votes": "104",
+      "Rank": "16"
+    },
+    {
+      "ID": "8",
+      "Name": "GONAY-LEKEU Pascale",
+      "Votes": "139",
+      "Percentage": "3,47%",
+      "Valid Votes": "139",
+      "Rank": "8"
+    },
+    {
+      "ID": "9",
+      "Name": "MATHONET Serge",
+      "Votes": "143",
+      "Percentage": "3,57%",
+      "Valid Votes": "143",
+      "Rank": "6"
+    },
+    {
+      "ID": "10",
+      "Name": "BRULET Michelle",
+      "Votes": "121",
+      "Percentage": "3,02%",
+      "Valid Votes": "121",
+      "Rank": "11"
+    },
+    {
+      "ID": "11",
+      "Name": "PARISOTTO Anthony",
+      "Votes": "148",
+      "Percentage": "3,70%",
+      "Valid Votes": "148",
+      "Rank": "5"
+    },
+    {
+      "ID": "12",
+      "Name": "COMOUTH Christiane",
+      "Votes": "77",
+      "Percentage": "1,92%",
+      "Valid Votes": "77",
+      "Rank": "22"
+    },
+    {
+      "ID": "13",
+      "Name": "RAVAGNAN Aurélien",
+      "Votes": "78",
+      "Percentage": "1,95%",
+      "Valid Votes": "78",
+      "Rank": "21"
+    },
+    {
+      "ID": "14",
+      "Name": "FECHER Fabienne",
+      "Votes": "188",
+      "Percentage": "4,70%",
+      "Valid Votes": "188",
+      "Rank": "2"
+    },
+    {
+      "ID": "15",
+      "Name": "DUMONT Clément",
+      "Votes": "110",
+      "Percentage": "2,75%",
+      "Valid Votes": "110",
+      "Rank": "13"
+    },
+    {
+      "ID": "16",
+      "Name": "DOUDELET Nicole",
+      "Votes": "104",
+      "Percentage": "2,60%",
+      "Valid Votes": "104",
+      "Rank": "17"
+    },
+    {
+      "ID": "17",
+      "Name": "FECHER Christian",
+      "Votes": "108",
+      "Percentage": "2,70%",
+      "Valid Votes": "108",
+      "Rank": "14"
+    },
+    {
+      "ID": "18",
+      "Name": "GRECO-TRUPIA Alfonsina",
+      "Votes": "89",
+      "Percentage": "2,22%",
+      "Valid Votes": "89",
+      "Rank": "19"
+    },
+    {
+      "ID": "19",
+      "Name": "DUMONT Antoine",
+      "Votes": "107",
+      "Percentage": "2,67%",
+      "Valid Votes": "107",
+      "Rank": "15"
+    },
+    {
+      "ID": "20",
+      "Name": "ROUMANS Sandy",
+      "Votes": "159",
+      "Percentage": "3,97%",
+      "Valid Votes": "159",
+      "Rank": "3"
+    },
+    {
+      "ID": "21",
+      "Name": "LETESSON Joseph",
+      "Votes": "143",
+      "Percentage": "3,57%",
+      "Valid Votes": "143",
+      "Rank": "7"
+    },
+    {
+      "ID": "22",
+      "Name": "CORDONNIER Annie",
+      "Votes": "83",
+      "Percentage": "2,07%",
+      "Valid Votes": "83",
+      "Rank": "20"
+    },
+    {
+      "ID": "23",
+      "Name": "LEBEAU Pierre",
+      "Votes": "112",
+      "Percentage": "2,80%",
+      "Valid Votes": "112",
+      "Rank": "12"
+    },
+    {
+      "ID": "24",
+      "Name": "ROUMANS-VANGEEBERGEN Nicole",
+      "Votes": "296",
+      "Percentage": "7,39%",
+      "Valid Votes": "296",
+      "Rank": "3"
+    },
+    {
+      "ID": "25",
+      "Name": "GOBLET Marc",
+      "Votes": "646",
+      "Percentage": "16,13%",
+      "Valid Votes": "646",
+      "Rank": "1"
+    }
+  ]
+}

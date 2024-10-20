@@ -1,0 +1,206 @@
+{
+  "teteList": 891,
+  "faveurCandidats": 5071,
+  "candidats": [
+    {
+      "ID": "1",
+      "Name": "DROUGUET Marc",
+      "Votes": "2879",
+      "Percentage": "14,77%",
+      "Valid Votes": "2879",
+      "Rank": "1"
+    },
+    {
+      "ID": "2",
+      "Name": "DALEM Marianne",
+      "Votes": "1092",
+      "Percentage": "5,60%",
+      "Valid Votes": "1092",
+      "Rank": "5"
+    },
+    {
+      "ID": "3",
+      "Name": "DUMOULIN Philippe",
+      "Votes": "1094",
+      "Percentage": "5,61%",
+      "Valid Votes": "1094",
+      "Rank": "4"
+    },
+    {
+      "ID": "4",
+      "Name": "LEVAUX Isabelle",
+      "Votes": "818",
+      "Percentage": "4,20%",
+      "Valid Votes": "818",
+      "Rank": "7"
+    },
+    {
+      "ID": "5",
+      "Name": "MONSEUR Jean-Marc",
+      "Votes": "1117",
+      "Percentage": "5,73%",
+      "Valid Votes": "1117",
+      "Rank": "3"
+    },
+    {
+      "ID": "6",
+      "Name": "DEJONG-RADEMAKER Nathalie",
+      "Votes": "371",
+      "Percentage": "1,90%",
+      "Valid Votes": "371",
+      "Rank": "10"
+    },
+    {
+      "ID": "7",
+      "Name": "JEROME Eric",
+      "Votes": "892",
+      "Percentage": "4,58%",
+      "Valid Votes": "892",
+      "Rank": "6"
+    },
+    {
+      "ID": "8",
+      "Name": "POLINARD Katia",
+      "Votes": "428",
+      "Percentage": "2,20%",
+      "Valid Votes": "428",
+      "Rank": "5"
+    },
+    {
+      "ID": "9",
+      "Name": "LEJEUNE Thierry",
+      "Votes": "712",
+      "Percentage": "3,65%",
+      "Valid Votes": "712",
+      "Rank": "9"
+    },
+    {
+      "ID": "10",
+      "Name": "SIMON Laurence",
+      "Votes": "398",
+      "Percentage": "2,04%",
+      "Valid Votes": "398",
+      "Rank": "8"
+    },
+    {
+      "ID": "11",
+      "Name": "ALLELYN Bernard",
+      "Votes": "725",
+      "Percentage": "3,72%",
+      "Valid Votes": "725",
+      "Rank": "8"
+    },
+    {
+      "ID": "12",
+      "Name": "DUBOIS Marion",
+      "Votes": "619",
+      "Percentage": "3,18%",
+      "Valid Votes": "619",
+      "Rank": "12"
+    },
+    {
+      "ID": "13",
+      "Name": "BAGUETTE Benjamin",
+      "Votes": "604",
+      "Percentage": "3,10%",
+      "Valid Votes": "604",
+      "Rank": "13"
+    },
+    {
+      "ID": "14",
+      "Name": "LONCIN Fabienne",
+      "Votes": "504",
+      "Percentage": "2,59%",
+      "Valid Votes": "504",
+      "Rank": "1"
+    },
+    {
+      "ID": "15",
+      "Name": "BLANCHARD Lionel",
+      "Votes": "663",
+      "Percentage": "3,40%",
+      "Valid Votes": "663",
+      "Rank": "10"
+    },
+    {
+      "ID": "16",
+      "Name": "GROSJEAN Morgane",
+      "Votes": "386",
+      "Percentage": "1,98%",
+      "Valid Votes": "386",
+      "Rank": "9"
+    },
+    {
+      "ID": "17",
+      "Name": "RIKIR Adrien",
+      "Votes": "424",
+      "Percentage": "2,18%",
+      "Valid Votes": "424",
+      "Rank": "6"
+    },
+    {
+      "ID": "18",
+      "Name": "LEMAIRE Marie",
+      "Votes": "456",
+      "Percentage": "2,34%",
+      "Valid Votes": "456",
+      "Rank": "4"
+    },
+    {
+      "ID": "19",
+      "Name": "SANTE Loïc",
+      "Votes": "323",
+      "Percentage": "1,66%",
+      "Valid Votes": "323",
+      "Rank": "11"
+    },
+    {
+      "ID": "20",
+      "Name": "NIX-CORTEIL Valérie",
+      "Votes": "415",
+      "Percentage": "2,13%",
+      "Valid Votes": "415",
+      "Rank": "7"
+    },
+    {
+      "ID": "21",
+      "Name": "FABRIS Gianni",
+      "Votes": "578",
+      "Percentage": "2,97%",
+      "Valid Votes": "578",
+      "Rank": "14"
+    },
+    {
+      "ID": "22",
+      "Name": "ANTOINE Mélanie",
+      "Votes": "493",
+      "Percentage": "2,53%",
+      "Valid Votes": "493",
+      "Rank": "3"
+    },
+    {
+      "ID": "23",
+      "Name": "DELLICOUR Jean-Pol",
+      "Votes": "631",
+      "Percentage": "3,24%",
+      "Valid Votes": "631",
+      "Rank": "11"
+    },
+    {
+      "ID": "24",
+      "Name": "KEYDENER Christel",
+      "Votes": "500",
+      "Percentage": "2,57%",
+      "Valid Votes": "500",
+      "Rank": "2"
+    },
+    {
+      "ID": "25",
+      "Name": "JEHOLET Pierre-Yves",
+      "Votes": "2370",
+      "Percentage": "12,16%",
+      "Valid Votes": "2370",
+      "Rank": "2"
+    }
+  ]
+}

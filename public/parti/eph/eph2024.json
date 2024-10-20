@@ -1,0 +1,206 @@
+{
+  "teteList": 936,
+  "faveurCandidats": 2832,
+  "candidats": [
+    {
+      "ID": "1",
+      "Name": "SCHYNS MARIE-MARTINE",
+      "Votes": "1614",
+      "Percentage": "12,41%",
+      "Valid Votes": "1614",
+      "Rank": "1"
+    },
+    {
+      "ID": "2",
+      "Name": "CHANDELLE BORIS",
+      "Votes": "770",
+      "Percentage": "5,92%",
+      "Valid Votes": "770",
+      "Rank": "2"
+    },
+    {
+      "ID": "3",
+      "Name": "COLIN ANAËLLE",
+      "Votes": "494",
+      "Percentage": "3,80%",
+      "Valid Votes": "494",
+      "Rank": "2"
+    },
+    {
+      "ID": "4",
+      "Name": "BOUILLON SYLVAIN",
+      "Votes": "428",
+      "Percentage": "3,29%",
+      "Valid Votes": "428",
+      "Rank": "7"
+    },
+    {
+      "ID": "5",
+      "Name": "JACQMIN DIANE",
+      "Votes": "575",
+      "Percentage": "4,42%",
+      "Valid Votes": "575",
+      "Rank": "7"
+    },
+    {
+      "ID": "6",
+      "Name": "FRANSSEN RENAUD",
+      "Votes": "508",
+      "Percentage": "3,90%",
+      "Valid Votes": "508",
+      "Rank": "1"
+    },
+    {
+      "ID": "7",
+      "Name": "DETHIER ESTELLE",
+      "Votes": "432",
+      "Percentage": "3,32%",
+      "Valid Votes": "432",
+      "Rank": "6"
+    },
+    {
+      "ID": "8",
+      "Name": "DUYSENS BENOÎT",
+      "Votes": "522",
+      "Percentage": "4,01%",
+      "Valid Votes": "522",
+      "Rank": "8"
+    },
+    {
+      "ID": "9",
+      "Name": "MARENNE MANON",
+      "Votes": "581",
+      "Percentage": "4,47%",
+      "Valid Votes": "581",
+      "Rank": "6"
+    },
+    {
+      "ID": "10",
+      "Name": "QUITTRE DAMIEN",
+      "Votes": "454",
+      "Percentage": "3,49%",
+      "Valid Votes": "454",
+      "Rank": "4"
+    },
+    {
+      "ID": "11",
+      "Name": "MINGUET EMILIE",
+      "Votes": "407",
+      "Percentage": "3,13%",
+      "Valid Votes": "407",
+      "Rank": "11"
+    },
+    {
+      "ID": "12",
+      "Name": "ACUNZO RAPHAËL",
+      "Votes": "586",
+      "Percentage": "4,50%",
+      "Valid Votes": "586",
+      "Rank": "5"
+    },
+    {
+      "ID": "13",
+      "Name": "DUYSENS EMMANUELLE",
+      "Votes": "449",
+      "Percentage": "3,45%",
+      "Valid Votes": "449",
+      "Rank": "5"
+    },
+    {
+      "ID": "14",
+      "Name": "CORMAN ADRIEN",
+      "Votes": "421",
+      "Percentage": "3,24%",
+      "Valid Votes": "421",
+      "Rank": "8"
+    },
+    {
+      "ID": "15",
+      "Name": "BALTACI CÉLINE",
+      "Votes": "339",
+      "Percentage": "2,61%",
+      "Valid Votes": "339",
+      "Rank": "14"
+    },
+    {
+      "ID": "16",
+      "Name": "VANDERBEEKEN ROMAIN",
+      "Votes": "293",
+      "Percentage": "2,25%",
+      "Valid Votes": "293",
+      "Rank": "16"
+    },
+    {
+      "ID": "17",
+      "Name": "REMY MANON",
+      "Votes": "514",
+      "Percentage": "3,95%",
+      "Valid Votes": "514",
+      "Rank": "9"
+    },
+    {
+      "ID": "18",
+      "Name": "LIEGEOIS RÉMI",
+      "Votes": "418",
+      "Percentage": "3,21%",
+      "Valid Votes": "418",
+      "Rank": "9"
+    },
+    {
+      "ID": "19",
+      "Name": "DETAILLE-GERARDY SANDRA",
+      "Votes": "297",
+      "Percentage": "2,28%",
+      "Valid Votes": "297",
+      "Rank": "15"
+    },
+    {
+      "ID": "20",
+      "Name": "MALVAUX LUC",
+      "Votes": "626",
+      "Percentage": "4,81%",
+      "Valid Votes": "626",
+      "Rank": "4"
+    },
+    {
+      "ID": "21",
+      "Name": "VANAUBEL-BECKERS THÉRÈSE",
+      "Votes": "376",
+      "Percentage": "2,89%",
+      "Valid Votes": "376",
+      "Rank": "13"
+    },
+    {
+      "ID": "22",
+      "Name": "BINDELLE PHILIPPE",
+      "Votes": "458",
+      "Percentage": "3,52%",
+      "Valid Votes": "458",
+      "Rank": "3"
+    },
+    {
+      "ID": "23",
+      "Name": "NIBUS LUCETTE",
+      "Votes": "415",
+      "Percentage": "3,19%",
+      "Valid Votes": "415",
+      "Rank": "10"
+    },
+    {
+      "ID": "24",
+      "Name": "PAULUS MARC",
+      "Votes": "402",
+      "Percentage": "3,09%",
+      "Valid Votes": "402",
+      "Rank": "12"
+    },
+    {
+      "ID": "25",
+      "Name": "TOUSSAINT LUC",
+      "Votes": "631",
+      "Percentage": "4,85%",
+      "Valid Votes": "631",
+      "Rank": "3"
+    }
+  ]
+}

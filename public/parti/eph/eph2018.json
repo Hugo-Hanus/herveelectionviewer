@@ -1,0 +1,206 @@
+{
+  "teteList": 654,
+  "faveurCandidats": 2914,
+  "candidats": [
+    {
+      "ID": "1",
+      "Name": "CHANDELLE Boris",
+      "Votes": "790",
+      "Percentage": "5,78%",
+      "Valid Votes": "790",
+      "Rank": "3"
+    },
+    {
+      "ID": "2",
+      "Name": "JACQMIN Diane",
+      "Votes": "734",
+      "Percentage": "5,37%",
+      "Valid Votes": "734",
+      "Rank": "4"
+    },
+    {
+      "ID": "3",
+      "Name": "ACUNZO Raphaël",
+      "Votes": "450",
+      "Percentage": "3,30%",
+      "Valid Votes": "450",
+      "Rank": "7"
+    },
+    {
+      "ID": "4",
+      "Name": "MARÉCHAL Virginie",
+      "Votes": "448",
+      "Percentage": "3,28%",
+      "Valid Votes": "448",
+      "Rank": "8"
+    },
+    {
+      "ID": "5",
+      "Name": "DUMINUCO Jean-Pierre",
+      "Votes": "291",
+      "Percentage": "2,13%",
+      "Valid Votes": "291",
+      "Rank": "17"
+    },
+    {
+      "ID": "6",
+      "Name": "MARENNE Manon",
+      "Votes": "547",
+      "Percentage": "4,01%",
+      "Valid Votes": "547",
+      "Rank": "1"
+    },
+    {
+      "ID": "7",
+      "Name": "LEJEUNE Christian",
+      "Votes": "329",
+      "Percentage": "2,41%",
+      "Valid Votes": "329",
+      "Rank": "16"
+    },
+    {
+      "ID": "8",
+      "Name": "GREFFE Christelle",
+      "Votes": "573",
+      "Percentage": "4,20%",
+      "Valid Votes": "573",
+      "Rank": "8"
+    },
+    {
+      "ID": "9",
+      "Name": "DIET Michaël",
+      "Votes": "437",
+      "Percentage": "3,20%",
+      "Valid Votes": "437",
+      "Rank": "9"
+    },
+    {
+      "ID": "10",
+      "Name": "REYNDERS Anne-Sophie",
+      "Votes": "505",
+      "Percentage": "3,70%",
+      "Valid Votes": "505",
+      "Rank": "3"
+    },
+    {
+      "ID": "11",
+      "Name": "PIRET Eddy-Pascal",
+      "Votes": "1021",
+      "Percentage": "7,48%",
+      "Valid Votes": "1021",
+      "Rank": "2"
+    },
+    {
+      "ID": "12",
+      "Name": "SCHYNS Marie-Martine",
+      "Votes": "1445",
+      "Percentage": "10,58%",
+      "Valid Votes": "1445",
+      "Rank": "1"
+    },
+    {
+      "ID": "13",
+      "Name": "HOGGE Denis",
+      "Votes": "585",
+      "Percentage": "4,28%",
+      "Valid Votes": "585",
+      "Rank": "7"
+    },
+    {
+      "ID": "14",
+      "Name": "COLLIN-ERNST Vinciane",
+      "Votes": "341",
+      "Percentage": "2,50%",
+      "Valid Votes": "341",
+      "Rank": "14"
+    },
+    {
+      "ID": "15",
+      "Name": "DEWANDRE Alain",
+      "Votes": "402",
+      "Percentage": "2,94%",
+      "Valid Votes": "402",
+      "Rank": "11"
+    },
+    {
+      "ID": "16",
+      "Name": "MAWET Cathy",
+      "Votes": "471",
+      "Percentage": "3,45%",
+      "Valid Votes": "471",
+      "Rank": "6"
+    },
+    {
+      "ID": "17",
+      "Name": "TOUSSAINT Luc",
+      "Votes": "648",
+      "Percentage": "4,74%",
+      "Valid Votes": "648",
+      "Rank": "6"
+    },
+    {
+      "ID": "18",
+      "Name": "BALTACI-JOIRIS Nathalie",
+      "Votes": "332",
+      "Percentage": "2,43%",
+      "Valid Votes": "332",
+      "Rank": "15"
+    },
+    {
+      "ID": "19",
+      "Name": "MALVAUX Luc",
+      "Votes": "664",
+      "Percentage": "4,86%",
+      "Valid Votes": "664",
+      "Rank": "5"
+    },
+    {
+      "ID": "20",
+      "Name": "GRÉTRY Vivianne",
+      "Votes": "487",
+      "Percentage": "3,57%",
+      "Valid Votes": "487",
+      "Rank": "4"
+    },
+    {
+      "ID": "21",
+      "Name": "ALLELYN Luc",
+      "Votes": "514",
+      "Percentage": "3,76%",
+      "Valid Votes": "514",
+      "Rank": "2"
+    },
+    {
+      "ID": "22",
+      "Name": "VANAUBEL-BECKERS Thérèse",
+      "Votes": "403",
+      "Percentage": "2,95%",
+      "Valid Votes": "403",
+      "Rank": "10"
+    },
+    {
+      "ID": "23",
+      "Name": "PIRE Jean Claude",
+      "Votes": "396",
+      "Percentage": "2,90%",
+      "Valid Votes": "396",
+      "Rank": "12"
+    },
+    {
+      "ID": "24",
+      "Name": "DEDERICKS-SNACKERS Eveline",
+      "Votes": "366",
+      "Percentage": "2,68%",
+      "Valid Votes": "366",
+      "Rank": "13"
+    },
+    {
+      "ID": "25",
+      "Name": "NIBUS Lucette",
+      "Votes": "478",
+      "Percentage": "3,50%",
+      "Valid Votes": "478",
+      "Rank": "5"
+    }
+  ]
+}
