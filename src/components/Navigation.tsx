@@ -78,12 +78,14 @@ function Navigation() {
   const [current, setCurrent] = useState("link");
 
   const onClick: MenuProps["onClick"] = (e) => {
+    console.log(e.keyPath);
     if (e.key === "") {
       navigate("/");
     }
     if (e.keyPath[0] === e.keyPath[1]) {
       navigate(`/Annee/${e.key}`);
     } else if (e.keyPath[0].substring(0, 4) === e.keyPath[1]) {
+      navigate(`/AllCandidats/${e.keyPath[1]}`);
     } else if (!isNaN(parseInt(e.keyPath[1], 10))) {
       navigate(`/List/${e.keyPath[1]}/${e.keyPath[0]}`);
     } else {

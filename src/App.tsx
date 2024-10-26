@@ -5,6 +5,7 @@ import Home from "./components/Home";
 import Navigation from "./components/Navigation";
 import Parti from "./components/Parti";
 import Year from "./components/Year";
+import AllCandidats from "./components/AllCandidats";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/" Component={Home} />
         <Route path="/Annee/:annee" Component={Year} />
         <Route path="/List/:yearSelected/:listName" Component={Parti} />
+        <Route path="/AllCandidats/:yearSelected" Component={AllCandidats} />
       </Routes>
     </HashRouter>
   );
