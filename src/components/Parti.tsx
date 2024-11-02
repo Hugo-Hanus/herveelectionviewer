@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Card, Table, Statistic, Input, Tag } from "antd";
+import { Card, Table, Statistic, Input, Tag, Skeleton } from "antd";
 import { MinusOutlined, PlusOutlined } from "@ant-design/icons";
 import type { TableColumnsType, TableProps } from "antd";
 import { useParams } from "react-router-dom";
@@ -30,7 +30,7 @@ interface PartiData {
 
 const useStyles = createStyles(({ css }) => ({
   row2018: css`
-    background-color: #f0f0f0; // Couleur de fond pour 2018
+    //background-color: #f0f0f0; // Couleur de fond pour 2018
   `,
   row2024: css`
     background-color: #fafafa; // Couleur de fond pour 2024
@@ -348,9 +348,7 @@ function Parti() {
     filters,
     sorter,
     extra
-  ) => {
-    console.log("params", pagination, filters, sorter, extra);
-  };
+  ) => "";
 
   const rowClassName = (record: Candidate) => {
     return record.Year === "2018" ? styles.row2018 : styles.row2024;
@@ -382,7 +380,7 @@ function Parti() {
             rowClassName={rowClassName}
           />
         ) : (
-          "Loading..."
+          <Skeleton />
         )}
       </Card>
       <CustomFooter />

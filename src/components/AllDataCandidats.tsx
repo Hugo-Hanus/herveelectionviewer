@@ -1,8 +1,6 @@
 import { useEffect, useState } from "react";
-import { Card, Table, Statistic, Input, Tag, Skeleton } from "antd";
-import { MinusOutlined, PlusOutlined } from "@ant-design/icons";
+import { Card, Table, Input, Skeleton } from "antd";
 import type { TableColumnsType, TableProps } from "antd";
-import { useParams } from "react-router-dom";
 import { createStyles } from "antd-style";
 import CustomFooter from "./CustomFooter";
 import Title from "antd/es/typography/Title";
@@ -52,13 +50,8 @@ const useStyles = createStyles(({ css }) => ({
   `,
 }));
 
-function AllCandidats() {
-  const { yearSelected } = useParams<{
-    listName: string;
-    yearSelected: string;
-  }>();
+function AllDataCandidats() {
   const [data, setData] = useState<Candidate[]>([]);
-  const [previousYearData, setPreviousYearData] = useState<Candidate[]>([]);
   const [searchText, setSearchText] = useState("");
   const { styles } = useStyles();
 
@@ -79,81 +72,40 @@ function AllCandidats() {
           const data: PartiData = await response.json();
 
           Object.keys(data).forEach((year) => {
-            if (year === yearSelected) {
-              const totalVotes = data[year].candidats.reduce(
-                (acc, candidate) => acc + parseInt(candidate.Votes),
-                0
-              );
+            const totalVotes = data[year].candidats.reduce(
+              (acc, candidate) => acc + parseInt(candidate.Votes),
+              0
+            );
 
-              data[year].candidats.forEach((candidate, index) => {
-                const percentage =
-                  totalVotes > 0
-                    ? ((parseInt(candidate.Votes) / totalVotes) * 100).toFixed(
-                        2
-                      )
-                    : "0.00";
+            data[year].candidats.forEach((candidate, index) => {
+              const percentage =
+                totalVotes > 0
+                  ? ((parseInt(candidate.Votes) / totalVotes) * 100).toFixed(2)
+                  : "0.00";
 
-                allCandidates.push({
-                  ...candidate,
-                  key: `${file}-${year}-${index}`,
-                  Year: year,
-                  parti: partyMapping[file],
-                  Percentage: percentage,
-                });
+              allCandidates.push({
+                ...candidate,
+                key: `${file}-${year}-${index}`,
+                Year: year,
+                parti: partyMapping[file],
+                Percentage: percentage,
               });
-            }
+            });
           });
         }
 
         setData(allCandidates);
-
-        if (yearSelected) {
-          const previousYear = (parseInt(yearSelected) - 6).toString();
-          const previousData: Candidate[] = [];
-
-          for (const file of files) {
-            const response = await fetch(`../../parti/${file}/${file}.json`);
-            const data: PartiData = await response.json();
-
-            if (data[previousYear]) {
-              data[previousYear].candidats.forEach((candidate, index) => {
-                previousData.push({
-                  ...candidate,
-                  key: `${file}-${previousYear}-${index}`,
-                  Year: previousYear,
-                  parti: partyMapping[file],
-                });
-              });
-            }
-          }
-          setPreviousYearData(previousData);
-        }
       } catch (error) {
         console.error("Error fetching data:", error);
       }
     };
 
     fetchData();
-  }, [yearSelected]);
+  }, []);
 
   const uniqueNames = Array.from(
     new Set(data.map((candidate) => candidate.Name))
   ).sort();
-
-  const calculateVoteDifference = (record: Candidate) => {
-    const previousRecord = previousYearData.find(
-      (prev) => prev.Name === record.Name
-    );
-    if (previousRecord) {
-      return parseInt(record.Votes) - parseInt(previousRecord.Votes);
-    }
-
-    return parseInt(record.Votes);
-  };
-
-  const isNewCandidate = (record: Candidate) => {
-    return !previousYearData.some((prev) => prev.Name === record.Name);
-  };
 
   const filteredData = data.filter((candidate) =>
     candidate.Name.toLowerCase().includes(searchText.toLowerCase())
@@ -205,20 +157,9 @@ function AllCandidats() {
         ...uniqueNames.map((name) => ({ text: name, value: name })),
       ],
       onFilter: (value, record) => {
-        if (value === "Nouveau") {
-          return isNewCandidate(record);
-        }
-        if (value === "Présent") {
-          return !isNewCandidate(record);
-        }
         return record.Name === value;
       },
-      render: (text, record) => (
-        <>
-          {isNewCandidate(record) && <Tag color="green">Nouveau</Tag>}
-          {<span className={styles.fontText}>{text}</span>}
-        </>
-      ),
+      render: (text, record) => <span className={styles.fontText}>{text}</span>,
     },
     {
       title: "Votes",
@@ -229,49 +170,18 @@ function AllCandidats() {
       render: (text) => <span className={styles.fontText}>{text}</span>,
     },
     {
-      title: "Différence de Votes % Élection précédente",
-      key: "voteDifference",
-      sorter: (a, b) => calculateVoteDifference(a) - calculateVoteDifference(b),
-      render: (text, record) => {
-        const voteDifference = calculateVoteDifference(record);
-        let valueStyle = {};
-        let prefix = null;
-
-        if (voteDifference > 0) {
-          valueStyle = { color: "#3f8600" };
-          prefix = <PlusOutlined />;
-        } else if (voteDifference < 0) {
-          valueStyle = { color: "#cf1322" };
-          prefix = <MinusOutlined />;
-        } else {
-          valueStyle = { color: "#1890ff" };
-        }
-
-        if (isNewCandidate(record)) {
-          valueStyle = {
-            ...valueStyle,
-            fontStyle: "italic",
-          };
-        }
-
-        return (
-          <Statistic
-            value={Math.abs(voteDifference)}
-            precision={0}
-            valueStyle={valueStyle}
-            prefix={prefix}
-            suffix="voix"
-            className={styles.statisticContent}
-          />
-        );
-      },
-    },
-    {
       title: "Pourcentage",
       dataIndex: "Percentage",
       key: "Percentage",
       sorter: (a, b) => parseFloat(a.Percentage) - parseFloat(b.Percentage),
       render: (text) => <span className={styles.fontText}>{text}%</span>,
+    },
+    {
+      title: "Année",
+      dataIndex: "Year",
+      key: "Year",
+      sorter: (a, b) => parseInt(a.Year) - parseInt(b.Year),
+      render: (text) => <span className={styles.fontText}>{text}</span>,
     },
   ];
 
@@ -292,7 +202,7 @@ function AllCandidats() {
         bordered={false}
         title={
           <Title level={1} style={{ textAlign: "center", marginTop: "20px" }}>
-            {"Tout les candidats - " + yearSelected}
+            {"Toutes les données"}
           </Title>
         }
       >
@@ -320,4 +230,4 @@ function AllCandidats() {
   );
 }
 
-export default AllCandidats;
+export default AllDataCandidats;

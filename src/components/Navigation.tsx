@@ -26,8 +26,8 @@ function Navigation() {
           children: [
             { label: "2024", key: "2024" },
             {
-              label: "2024 Tout les candidats",
-              key: "2024 Tout les candidats",
+              label: "Tout les candidats",
+              key: "Tout les candidats",
             },
           ],
         },
@@ -53,8 +53,8 @@ function Navigation() {
           children: [
             { label: "2018", key: "2018" },
             {
-              label: "2018 Tout les candidats",
-              key: "2018 Tout les candidats",
+              label: "Tout les candidats",
+              key: "Tout les candidats",
             },
           ],
         },
@@ -71,20 +71,22 @@ function Navigation() {
     },
     {
       label: "Toutes les données",
-      key: "app",
+      key: "allDataCandidats",
       icon: <ProfileFilled />,
     },
   ];
   const [current, setCurrent] = useState("link");
 
   const onClick: MenuProps["onClick"] = (e) => {
-    console.log(e.keyPath);
     if (e.key === "") {
       navigate("/");
     }
+    if (e.key === "allDataCandidats") {
+      navigate(`/AllDataCandidats`);
+    }
     if (e.keyPath[0] === e.keyPath[1]) {
       navigate(`/Annee/${e.key}`);
-    } else if (e.keyPath[0].substring(0, 4) === e.keyPath[1]) {
+    } else if (e.keyPath[0] === "Tout les candidats") {
       navigate(`/AllCandidats/${e.keyPath[1]}`);
     } else if (!isNaN(parseInt(e.keyPath[1], 10))) {
       navigate(`/List/${e.keyPath[1]}/${e.keyPath[0]}`);
